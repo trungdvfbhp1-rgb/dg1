@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "mssv": "2412111053",
+    "ho_ten": "Nguyễn Duy Trung",
+    "lop": "CNTT01",
+    "diem": 9.0
+  },
+  {
+    "id": 2,
+    "mssv": "2412111054",
+    "ho_ten": "Nguyễn Văn An",
+    "lop": "CNTT01",
+    "diem": 8.5
+  },
+  {
+    "id": 3,
+    "mssv": "2412111055",
+    "ho_ten": "Trần Minh Đức",
+    "lop": "CNTT02",
+    "diem": 7.5
+  },
+  {
+    "id": 4,
+    "mssv": "2412111056",
+    "ho_ten": "Lê Thị Mai",
+    "lop": "CNTT02",
+    "diem": 9.2
+  },
+  {
+    "id": 5,
+    "mssv": "2412111057",
+    "ho_ten": "Phạm Quốc Huy",
+    "lop": "CNTT01",
+    "diem": 8.0
+  }
+]
+
