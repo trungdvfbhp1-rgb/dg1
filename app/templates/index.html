@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DG1 – Nguyễn Duy Trung – 2412111053</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DG1 – {{ ho_ten }} – {{ mssv }}</h1>
+            <p>HỆ THỐNG QUẢN LÝ SINH VIÊN</p>
+        </header>
+
+        <main>
+            <h2>Danh sách sinh viên</h2>
+            <p>Tổng số: {{ students|length }} sinh viên</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>MSSV</th>
+                        <th>Họ và tên</th>
+                        <th>Lớp</th>
+                        <th>Điểm</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sv in students %}
+                    <tr>
+                        <td>{{ sv.id }}</td>
+                        <td>{{ sv.mssv }}</td>
+                        <td>{{ sv.ho_ten }}</td>
+                        <td>{{ sv.lop }}</td>
+                        <td>{{ sv.diem }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <p>DG1 - Nguyễn Duy Trung - 2412111053</p>
+        </footer>
+    </div>
+</body>
+</html>
